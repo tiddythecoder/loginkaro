@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    border:2px solid red;
+    text-align: center;
+}
+nav h2{
+    font-size:3vw;
+}
+.formcontainer{
+    background-image:url('.. /nightsky.jpg');
+    margin-top: 5vw;
+    border:2px solid blue;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+form{
+    /* padding:1vw; */
+    border:2px solid black;
+    width:28vw;
+    height:20vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* width: */
+}
+form h2{
+    margin-bottom: 1vw;
+    font-size:2.5vw;
+}
+form input{
+    margin-bottom:1vw;
+    width:25vw;
+    height:2.5vw;
+    font-size:1.2vw;
+    border:0.13vw solid rgb(99, 93, 93);
+    padding-left: 0.5vw;
+    /* border-radius:0.2vw; */
+
+}
+form button{
+    background-image: linear-gradient(to left bottom, #051937, #00466a, #007990, #00ada2, #78e0a4);
+    margin-bottom:1vw;
+    width:25.6vw;
+    height:2.5vw;
+    font-size:1.2vw;
+    /* border:0.2vw solid rgb(111, 106, 106); */
+    /* border-radius:0.1vw; */
+    height:3vw;
+}
